@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name" : "express-image-host",
   "builds": [
     { "src": "./index.js", "use": "@now/node-server" }
   ]

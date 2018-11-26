@@ -7,7 +7,11 @@
     "start" : "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "chuikoff.ru",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/chuikoffru/Express-ImageHost"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
