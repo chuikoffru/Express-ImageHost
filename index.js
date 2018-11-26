@@ -38,9 +38,9 @@ imgsub.get('/*', (req, res) => {
     });
 });
 
-app.use(sdomain('i', imgsub))
-app.use(notFound)
-app.listen(port, () => console.log('Express Image-Server online'));
+app.use(sdomain('i', imgsub));
+app.use(notFound);
+app.listen();
 
 /* Custom Functions */
 function getKeys() {
