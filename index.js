@@ -22,7 +22,7 @@ router.get('/', (req, res) => {
 
 });
 
-app.post('/upload', upload.any(), async (req, res) => {
+router.post('/upload', upload.any(), async (req, res) => {
 
     if (!req.headers['authorization'] || !getKeys().includes(req.headers['authorization']))
         return res.status(401).json({ error: 'Unauthorized' });
